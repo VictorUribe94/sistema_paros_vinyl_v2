@@ -1,0 +1,557 @@
+﻿using sistema_paros_vinyl.Clases;
+
+namespace sistema_paros_vinyl
+{
+    partial class frmPrincipal
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
+            this.lblConnect = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnConectar = new System.Windows.Forms.Button();
+            this.cmbSerial = new System.Windows.Forms.ComboBox();
+            this.cmbParo = new System.Windows.Forms.ComboBox();
+            this.lblParo = new System.Windows.Forms.Label();
+            this.lblFondoGris = new System.Windows.Forms.Label();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.lblHora = new System.Windows.Forms.Label();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.timerHora = new System.Windows.Forms.Timer(this.components);
+            this.timerTiempoParo = new System.Windows.Forms.Timer(this.components);
+            this.lblHoraParo = new System.Windows.Forms.Label();
+            this.lblTiempoParo = new System.Windows.Forms.Label();
+            this.lblIp = new System.Windows.Forms.Label();
+            this.lblDataBase = new System.Windows.Forms.Label();
+            this.btnAyuda = new System.Windows.Forms.Button();
+            this.timerProduccion = new System.Windows.Forms.Timer(this.components);
+            this.timerReconexion = new System.Windows.Forms.Timer(this.components);
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.cmbFallas = new System.Windows.Forms.ComboBox();
+            this.lblOpcion = new System.Windows.Forms.Label();
+            this.cmbProceso = new System.Windows.Forms.ComboBox();
+            this.lblTiempoEnParo = new System.Windows.Forms.Label();
+            this.lblTiempoParoActual = new System.Windows.Forms.Label();
+            this.timerClosed = new System.Windows.Forms.Timer(this.components);
+            this.timerConexion = new System.Windows.Forms.Timer(this.components);
+            this.callWindow = new System.Windows.Forms.Timer(this.components);
+            this.lblDiscProd = new System.Windows.Forms.Label();
+            this.lblDiscProdM = new System.Windows.Forms.Label();
+            this.lblDiscBuenos = new System.Windows.Forms.Label();
+            this.lblDiscBuenosM = new System.Windows.Forms.Label();
+            this.lblYield = new System.Windows.Forms.Label();
+            this.lblYieldM = new System.Windows.Forms.Label();
+            this.btnProduccion = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // lblConnect
+            // 
+            this.lblConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 46F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConnect.ForeColor = System.Drawing.Color.White;
+            this.lblConnect.Location = new System.Drawing.Point(24, 33);
+            this.lblConnect.Name = "lblConnect";
+            this.lblConnect.Size = new System.Drawing.Size(396, 230);
+            this.lblConnect.TabIndex = 0;
+            this.lblConnect.Text = "CONNECT TO PRINTER";
+            this.lblConnect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Location = new System.Drawing.Point(345, 299);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCerrar.TabIndex = 1;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
+            // btnConectar
+            // 
+            this.btnConectar.Location = new System.Drawing.Point(171, 286);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(75, 23);
+            this.btnConectar.TabIndex = 2;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            // 
+            // cmbSerial
+            // 
+            this.cmbSerial.AutoCompleteCustomSource.AddRange(new string[] {
+            "COM1",
+            "COM2",
+            "COM3",
+            "COM4",
+            "COM5",
+            "COM6"});
+            this.cmbSerial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSerial.FormattingEnabled = true;
+            this.cmbSerial.Items.AddRange(new object[] {
+            "COM1",
+            "COM2",
+            "COM3",
+            "COM4",
+            "COM5",
+            "COM6",
+            "COM7",
+            "COM8",
+            "COM9",
+            "COM10",
+            "COM11",
+            "COM12",
+            "COM13",
+            "COM14",
+            "COM15",
+            "COM16",
+            "COM17",
+            "COM18",
+            "COM19",
+            "COM20",
+            "COM21",
+            "COM22",
+            "COM23",
+            "COM24",
+            "COM25",
+            "COM26",
+            "COM27",
+            "COM28",
+            "COM29",
+            "COM30"});
+            this.cmbSerial.Location = new System.Drawing.Point(24, 286);
+            this.cmbSerial.Name = "cmbSerial";
+            this.cmbSerial.Size = new System.Drawing.Size(121, 21);
+            this.cmbSerial.TabIndex = 3;
+            // 
+            // cmbParo
+            // 
+            this.cmbParo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbParo.FormattingEnabled = true;
+            this.cmbParo.Location = new System.Drawing.Point(36, 49);
+            this.cmbParo.Name = "cmbParo";
+            this.cmbParo.Size = new System.Drawing.Size(200, 21);
+            this.cmbParo.TabIndex = 4;
+            this.cmbParo.SelectedValueChanged += new System.EventHandler(this.cmbParo_SelectedValueChanged);
+            // 
+            // lblParo
+            // 
+            this.lblParo.AutoSize = true;
+            this.lblParo.Location = new System.Drawing.Point(33, 33);
+            this.lblParo.Name = "lblParo";
+            this.lblParo.Size = new System.Drawing.Size(142, 13);
+            this.lblParo.TabIndex = 5;
+            this.lblParo.Text = "Seleccione la causa de paro";
+            // 
+            // lblFondoGris
+            // 
+            this.lblFondoGris.BackColor = System.Drawing.Color.Gray;
+            this.lblFondoGris.Location = new System.Drawing.Point(46, 22);
+            this.lblFondoGris.Name = "lblFondoGris";
+            this.lblFondoGris.Size = new System.Drawing.Size(255, 261);
+            this.lblFondoGris.TabIndex = 6;
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Location = new System.Drawing.Point(59, 94);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(159, 20);
+            this.txtUsuario.TabIndex = 7;
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(59, 155);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(159, 20);
+            this.txtPassword.TabIndex = 8;
+            this.txtPassword.UseSystemPasswordChar = true;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.BackColor = System.Drawing.Color.Gray;
+            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(56, 73);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(50, 13);
+            this.lblUsuario.TabIndex = 9;
+            this.lblUsuario.Text = "Usuario";
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.BackColor = System.Drawing.Color.Gray;
+            this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(56, 130);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(71, 13);
+            this.lblPassword.TabIndex = 10;
+            this.lblPassword.Text = "Contraseña";
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.BackColor = System.Drawing.SystemColors.Control;
+            this.btnAceptar.Location = new System.Drawing.Point(209, 219);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 11;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
+            // lblHora
+            // 
+            this.lblHora.AutoSize = true;
+            this.lblHora.Location = new System.Drawing.Point(12, 325);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(30, 13);
+            this.lblHora.TabIndex = 18;
+            this.lblHora.Text = "Hora";
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(138, 325);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(37, 13);
+            this.lblFecha.TabIndex = 19;
+            this.lblFecha.Text = "Fecha";
+            this.lblFecha.Click += new System.EventHandler(this.lblFecha_Click);
+            // 
+            // timerHora
+            // 
+            this.timerHora.Interval = 500;
+            this.timerHora.Tick += new System.EventHandler(this.timerHora_Tick);
+            // 
+            // timerTiempoParo
+            // 
+            this.timerTiempoParo.Interval = 1000;
+            this.timerTiempoParo.Tick += new System.EventHandler(this.timerTiempoParo_Tick);
+            // 
+            // lblHoraParo
+            // 
+            this.lblHoraParo.AutoSize = true;
+            this.lblHoraParo.Location = new System.Drawing.Point(342, 229);
+            this.lblHoraParo.Name = "lblHoraParo";
+            this.lblHoraParo.Size = new System.Drawing.Size(52, 13);
+            this.lblHoraParo.TabIndex = 20;
+            this.lblHoraParo.Text = "hora paro";
+            // 
+            // lblTiempoParo
+            // 
+            this.lblTiempoParo.AutoSize = true;
+            this.lblTiempoParo.Location = new System.Drawing.Point(341, 263);
+            this.lblTiempoParo.Name = "lblTiempoParo";
+            this.lblTiempoParo.Size = new System.Drawing.Size(63, 13);
+            this.lblTiempoParo.TabIndex = 21;
+            this.lblTiempoParo.Text = "tiempo Paro";
+            // 
+            // lblIp
+            // 
+            this.lblIp.AutoSize = true;
+            this.lblIp.Location = new System.Drawing.Point(7, 9);
+            this.lblIp.Name = "lblIp";
+            this.lblIp.Size = new System.Drawing.Size(65, 13);
+            this.lblIp.TabIndex = 22;
+            this.lblIp.Text = "Direccion IP";
+            this.lblIp.DoubleClick += new System.EventHandler(this.lblIp_DoubleClick);
+            // 
+            // lblDataBase
+            // 
+            this.lblDataBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 47F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataBase.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblDataBase.Location = new System.Drawing.Point(47, 72);
+            this.lblDataBase.Name = "lblDataBase";
+            this.lblDataBase.Size = new System.Drawing.Size(328, 144);
+            this.lblDataBase.TabIndex = 23;
+            this.lblDataBase.Text = "Database Error";
+            this.lblDataBase.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // btnAyuda
+            // 
+            this.btnAyuda.Location = new System.Drawing.Point(183, 240);
+            this.btnAyuda.Name = "btnAyuda";
+            this.btnAyuda.Size = new System.Drawing.Size(75, 23);
+            this.btnAyuda.TabIndex = 24;
+            this.btnAyuda.Text = "Ayuda";
+            this.btnAyuda.UseVisualStyleBackColor = true;
+            this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
+            // 
+            // timerProduccion
+            // 
+            this.timerProduccion.Interval = 5000;
+            this.timerProduccion.Tick += new System.EventHandler(this.timerProduccion_Tick);
+            // 
+            // timerReconexion
+            // 
+            this.timerReconexion.Interval = 1000;
+            this.timerReconexion.Tick += new System.EventHandler(this.timerReconexion_Tick);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(70, 219);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 25;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // cmbFallas
+            // 
+            this.cmbFallas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFallas.FormattingEnabled = true;
+            this.cmbFallas.Location = new System.Drawing.Point(59, 49);
+            this.cmbFallas.Name = "cmbFallas";
+            this.cmbFallas.Size = new System.Drawing.Size(177, 21);
+            this.cmbFallas.TabIndex = 26;
+            this.cmbFallas.Visible = false;
+            // 
+            // lblOpcion
+            // 
+            this.lblOpcion.AutoSize = true;
+            this.lblOpcion.BackColor = System.Drawing.Color.Gray;
+            this.lblOpcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOpcion.Location = new System.Drawing.Point(58, 33);
+            this.lblOpcion.Name = "lblOpcion";
+            this.lblOpcion.Size = new System.Drawing.Size(137, 13);
+            this.lblOpcion.TabIndex = 27;
+            this.lblOpcion.Text = "Seleccione una opción";
+            this.lblOpcion.Visible = false;
+            // 
+            // cmbProceso
+            // 
+            this.cmbProceso.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbProceso.FormattingEnabled = true;
+            this.cmbProceso.Location = new System.Drawing.Point(59, 49);
+            this.cmbProceso.Name = "cmbProceso";
+            this.cmbProceso.Size = new System.Drawing.Size(177, 21);
+            this.cmbProceso.TabIndex = 28;
+            this.cmbProceso.Visible = false;
+            // 
+            // lblTiempoEnParo
+            // 
+            this.lblTiempoEnParo.AutoSize = true;
+            this.lblTiempoEnParo.Location = new System.Drawing.Point(235, 325);
+            this.lblTiempoEnParo.Name = "lblTiempoEnParo";
+            this.lblTiempoEnParo.Size = new System.Drawing.Size(84, 13);
+            this.lblTiempoEnParo.TabIndex = 31;
+            this.lblTiempoEnParo.Text = "Tiempo en paro:";
+            // 
+            // lblTiempoParoActual
+            // 
+            this.lblTiempoParoActual.AutoSize = true;
+            this.lblTiempoParoActual.Location = new System.Drawing.Point(325, 325);
+            this.lblTiempoParoActual.Name = "lblTiempoParoActual";
+            this.lblTiempoParoActual.Size = new System.Drawing.Size(35, 13);
+            this.lblTiempoParoActual.TabIndex = 32;
+            this.lblTiempoParoActual.Text = "label3";
+            // 
+            // timerClosed
+            // 
+            this.timerClosed.Interval = 1000;
+            this.timerClosed.Tick += new System.EventHandler(this.timerClosed_Tick);
+            // 
+            // timerConexion
+            // 
+            this.timerConexion.Enabled = true;
+            this.timerConexion.Interval = 5000;
+            this.timerConexion.Tick += new System.EventHandler(this.timerConexion_Tick);
+            // 
+            // callWindow
+            // 
+            this.callWindow.Interval = 1000;
+            this.callWindow.Tick += new System.EventHandler(this.callWindow_Tick);
+            // 
+            // lblDiscProd
+            // 
+            this.lblDiscProd.AutoSize = true;
+            this.lblDiscProd.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiscProd.Location = new System.Drawing.Point(307, 49);
+            this.lblDiscProd.Name = "lblDiscProd";
+            this.lblDiscProd.Size = new System.Drawing.Size(86, 31);
+            this.lblDiscProd.TabIndex = 15;
+            this.lblDiscProd.Text = "label4";
+            // 
+            // lblDiscProdM
+            // 
+            this.lblDiscProdM.AutoSize = true;
+            this.lblDiscProdM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiscProdM.Location = new System.Drawing.Point(30, 49);
+            this.lblDiscProdM.Name = "lblDiscProdM";
+            this.lblDiscProdM.Size = new System.Drawing.Size(141, 31);
+            this.lblDiscProdM.TabIndex = 12;
+            this.lblDiscProdM.Text = "Vinyl Total";
+            // 
+            // lblDiscBuenos
+            // 
+            this.lblDiscBuenos.AutoSize = true;
+            this.lblDiscBuenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiscBuenos.Location = new System.Drawing.Point(307, 112);
+            this.lblDiscBuenos.Name = "lblDiscBuenos";
+            this.lblDiscBuenos.Size = new System.Drawing.Size(86, 31);
+            this.lblDiscBuenos.TabIndex = 16;
+            this.lblDiscBuenos.Text = "label5";
+            // 
+            // lblDiscBuenosM
+            // 
+            this.lblDiscBuenosM.AutoSize = true;
+            this.lblDiscBuenosM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiscBuenosM.Location = new System.Drawing.Point(30, 112);
+            this.lblDiscBuenosM.Name = "lblDiscBuenosM";
+            this.lblDiscBuenosM.Size = new System.Drawing.Size(158, 31);
+            this.lblDiscBuenosM.TabIndex = 13;
+            this.lblDiscBuenosM.Text = "Vinyl Bueno";
+            // 
+            // lblYield
+            // 
+            this.lblYield.AutoSize = true;
+            this.lblYield.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYield.Location = new System.Drawing.Point(307, 173);
+            this.lblYield.Name = "lblYield";
+            this.lblYield.Size = new System.Drawing.Size(86, 31);
+            this.lblYield.TabIndex = 17;
+            this.lblYield.Text = "label6";
+            // 
+            // lblYieldM
+            // 
+            this.lblYieldM.AutoSize = true;
+            this.lblYieldM.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYieldM.Location = new System.Drawing.Point(32, 173);
+            this.lblYieldM.Name = "lblYieldM";
+            this.lblYieldM.Size = new System.Drawing.Size(74, 31);
+            this.lblYieldM.TabIndex = 14;
+            this.lblYieldM.Text = "Yield";
+            // 
+            // btnProduccion
+            // 
+            this.btnProduccion.Location = new System.Drawing.Point(357, 17);
+            this.btnProduccion.Name = "btnProduccion";
+            this.btnProduccion.Size = new System.Drawing.Size(75, 23);
+            this.btnProduccion.TabIndex = 33;
+            this.btnProduccion.Text = "Produccion";
+            this.btnProduccion.UseVisualStyleBackColor = true;
+            this.btnProduccion.Click += new System.EventHandler(this.btnProduccion_Click);
+            // 
+            // frmPrincipal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(444, 347);
+            this.ControlBox = false;
+            this.Controls.Add(this.btnProduccion);
+            this.Controls.Add(this.lblTiempoParoActual);
+            this.Controls.Add(this.lblTiempoEnParo);
+            this.Controls.Add(this.cmbProceso);
+            this.Controls.Add(this.lblOpcion);
+            this.Controls.Add(this.cmbFallas);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnAyuda);
+            this.Controls.Add(this.lblIp);
+            this.Controls.Add(this.lblTiempoParo);
+            this.Controls.Add(this.lblHoraParo);
+            this.Controls.Add(this.lblFecha);
+            this.Controls.Add(this.lblHora);
+            this.Controls.Add(this.lblYield);
+            this.Controls.Add(this.lblDiscBuenos);
+            this.Controls.Add(this.lblDiscProd);
+            this.Controls.Add(this.lblYieldM);
+            this.Controls.Add(this.lblDiscBuenosM);
+            this.Controls.Add(this.lblDiscProdM);
+            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblUsuario);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.lblParo);
+            this.Controls.Add(this.cmbParo);
+            this.Controls.Add(this.cmbSerial);
+            this.Controls.Add(this.btnConectar);
+            this.Controls.Add(this.btnCerrar);
+            this.Controls.Add(this.lblDataBase);
+            this.Controls.Add(this.lblConnect);
+            this.Controls.Add(this.lblFondoGris);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(460, 386);
+            this.MinimumSize = new System.Drawing.Size(460, 386);
+            this.Name = "frmPrincipal";
+            this.Text = "Sistema Paros  Vinyl";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPrincipal_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmPrincipal_FormClosed);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblConnect;
+        private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.ComboBox cmbSerial;
+        private System.Windows.Forms.ComboBox cmbParo;
+        private System.Windows.Forms.Label lblParo;
+        private System.Windows.Forms.Label lblFondoGris;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.Label lblHora;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Timer timerHora;
+        private System.Windows.Forms.Label lblHoraParo;
+        private System.Windows.Forms.Label lblTiempoParo;
+        private System.Windows.Forms.Label lblIp;
+        private System.Windows.Forms.Label lblDataBase;
+        private System.Windows.Forms.Button btnAyuda;
+        private System.Windows.Forms.Timer timerProduccion;
+        private System.Windows.Forms.Timer timerReconexion;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.ComboBox cmbFallas;
+        private System.Windows.Forms.Label lblOpcion;
+        private System.Windows.Forms.ComboBox cmbProceso;
+        private System.Windows.Forms.Label lblTiempoEnParo;
+        private System.Windows.Forms.Label lblTiempoParoActual;
+        public System.Windows.Forms.Timer timerTiempoParo;
+        private System.Windows.Forms.Timer timerClosed;
+        private System.Windows.Forms.Timer timerConexion;
+        private System.Windows.Forms.Timer callWindow;
+        private System.Windows.Forms.Label lblDiscProd;
+        private System.Windows.Forms.Label lblDiscProdM;
+        private System.Windows.Forms.Label lblDiscBuenos;
+        private System.Windows.Forms.Label lblDiscBuenosM;
+        private System.Windows.Forms.Label lblYield;
+        private System.Windows.Forms.Label lblYieldM;
+        private System.Windows.Forms.Button btnProduccion;
+    }
+}
+

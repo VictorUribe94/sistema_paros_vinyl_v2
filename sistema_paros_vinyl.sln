@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistema_paros_vinyl", "sistema_paros_impresion\sistema_paros_vinyl.csproj", "{4E54767E-2FEA-4B37-B628-6DE7F086D391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E54767E-2FEA-4B37-B628-6DE7F086D391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E54767E-2FEA-4B37-B628-6DE7F086D391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E54767E-2FEA-4B37-B628-6DE7F086D391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E54767E-2FEA-4B37-B628-6DE7F086D391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FF07172-D991-4C2D-9E79-4ADBF40F01B9}
+	EndGlobalSection
+EndGlobal
