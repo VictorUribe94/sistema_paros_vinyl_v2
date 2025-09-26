@@ -58,6 +58,12 @@ namespace sistema_paros_vinyl
         String strDiaAyer, strMesAyer, strYearAyer, strFechaAyer, strBandHora;
         List<String> metaProd = new List<String>();
         List<String> horaK = new List<String>();
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
         List<String> horaJ = new List<String>();
         List<String> revisiones = new List<String>();
         List<String> guardados = new List<String>();

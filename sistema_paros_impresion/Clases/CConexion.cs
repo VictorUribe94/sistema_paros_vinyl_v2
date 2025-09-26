@@ -30,8 +30,8 @@ namespace sistema_paros_vinyl.Clases
 
         static string servidor = "GUADSPRODAPP01";
         static string bd = "TCMXParos";
-        static string usuario = "TCMXParosUsr";
-        static string password = "S1st3m!Usr@6";
+        static string usuario = "Users";
+        static string password = "Password";
         static string puerto = "1433";
 
         string cadena_conexion = "server=" + servidor + ";"  + "user id=" + usuario + ";" + "password=" + password + ";" +

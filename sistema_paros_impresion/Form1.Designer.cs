@@ -1086,6 +1086,7 @@ namespace sistema_paros_vinyl
             this.Text = "Sistema Paros  Vinyl";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPrincipal_FormClosing_1);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmPrincipal_FormClosed);
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.Leave += new System.EventHandler(this.frmPrincipal_Leave);
             this.ResumeLayout(false);
             this.PerformLayout();
